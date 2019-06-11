@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  background-color: lightgrey;
+  background-image: url('fog.jpg');
+  background-repeat: none;
+  background-size: auto;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  color: white;
+  text-shadow: -3px 1px grey;
+
+}
+
+.InputSection {
+  margin: 50px 0px 80px 0px;
+  width: 400px;
+}
+
+.Inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.AddOption {
+  margin-top: 10px;
+}
+
+button {
+  background-color: darkgrey;
+  margin: 2px;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+}
