@@ -6,7 +6,6 @@ body {
   margin-top: 150px;
   background-color: lightgrey;
   background-image: url('fog.jpg');
-  background-repeat: none;
   background-size: auto;
 }
 
@@ -52,4 +51,16 @@ button {
 
 .NewBackground {
   Color: black;
+}
+
+.ResultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: gold;
+  font-weight: bold;
+  text-shadow: -3px 1px grey;
+
 }
